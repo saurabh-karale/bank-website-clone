@@ -1,0 +1,1063 @@
+/* Lecture 1 */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+.main_menu_section ul li a {
+  text-decoration: none;
+  color: inherit; 
+}
+.main {
+  height: auto;
+  width: 100%;
+  float: left;
+}
+.top_menu {
+  height: 35px;
+  width: 100%;
+  float: left;
+  background-color: brown;
+}
+.top_menu_time {
+  height: 100%;
+  width: 50%;
+  float: left;
+  /* background-color: yellow; */
+}
+.top_menu_time ul {
+  margin-top: 10px;
+  font-size: 14px;
+}
+.top_menu_time ul li {
+  display: inline-block;
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+}
+.top_menu_time i {
+  margin-right: 5px;
+  font-size: 10px;
+  color: white;
+}
+.top_menu_option {
+  height: 100%;
+  width: 50%;
+  float: left;
+  /* background-color: yellow; */
+}
+.top_menu_option ul {
+  float: right;
+}
+.top_menu_option ul li {
+  display: inline-block;
+  margin-top: 7px;
+  margin-right: 20px;
+  font-size: 17px;
+  color: white;
+}
+
+@media (max-width: 667px) {
+  .top_menu {
+    height: auto;
+  }
+  .top_menu_time,
+  .top_menu_option {
+    width: 100%;
+  }
+  .top_menu_option ul li {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+}
+
+/* Lecture 2 */
+.main_menu {
+  height: 100px;
+  width: 100%;
+  float: left;
+  /* background-color: red; */
+}
+.main_menu_icon {
+  height: 100%;
+  width: 40%;
+  float: left;
+  /* background-color: yellow; */
+}
+.main_menu_icon img {
+  height: 70%;
+  width: 55%;
+  float: left;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.main_menu_section {
+  height: 100%;
+  width: 60%;
+  float: left;
+  /* background-color: yellow; */
+}
+.main_menu_section ul {
+  margin-top: 38px;
+  float: right;
+  margin-right: 20px;
+}
+.main_menu_section ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 15px;
+  font-weight: bold;
+}
+.main_menu_section ul li i {
+  font-size: 10px;
+}
+
+.main_menu button {
+  float: right;
+  margin-right: 40px;
+  margin-top: 30px;
+  font-size: 30px;
+  border: none;
+  display: none;
+}
+
+@media (max-width: 667px) {
+  .main_menu_icon img {
+    width: 100%;
+    height: 60%;
+  }
+  .main_menu_section {
+    display: none;
+  }
+  .main_menu button {
+    display: inline;
+  }
+}
+
+.content {
+  height: 420px;
+  width: 100%;
+  float: left;
+  background-image: url("http://mahaganpatimultistate.com/assets/images/homeSliders/Deposite.webp");
+  background-size: cover;
+  text-align: center;
+}
+.content h1 {
+  font-size: 45px;
+  font-weight: normal;
+  margin-top: 30px;
+}
+.content h2 {
+  font-size: 35px;
+  font-weight: normal;
+  margin-top: 25px;
+  line-height: 45px;
+  color: #90191b;
+}
+.content p {
+  font-size: 15px;
+  margin-top: 20px;
+  font-weight: bold;
+  word-spacing: 1px;
+}
+.content button {
+  margin-top: 50px;
+  background-color: #90191b;
+  color: white;
+  font-weight: bold;
+  height: 60px;
+  width: 170px;
+  border: none;
+  font-size: 17px;
+}
+@media (max-width: 667px) {
+  .content h1 {
+    font-size: 40px;
+  }
+}
+
+.content_images {
+  height: auto;
+  width: 100%;
+  float: left;
+}
+.content_info {
+  margin-top: 35px;
+}
+.content_info h1 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 35px;
+}
+.content_info p {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 19px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.content_facility {
+  height: 1100px;
+  width: 95%;
+  float: left;
+  margin-top: 10px;
+  margin-left: 2.5%;
+  /* background-color: red; */
+}
+
+.content_ima1 {
+  height: 500px;
+  width: 30%;
+  float: left;
+  /* background-color: #90191b; */
+  margin-left: 2%;
+  text-align: center;
+}
+.content_ima1 img {
+  height: 300px;
+  width: 100%;
+  border-top-left-radius: 70px;
+  border-bottom-right-radius: 70px;
+}
+.content_ima1 h1 {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.content_ima1 p {
+  font-size: 17px;
+  margin-bottom: 10px;
+  color: gray;
+  line-height: 25px;
+}
+.content_ima1 button {
+  height: 35px;
+  width: 110px;
+  font-size: 16px;
+  background-color: #90191b;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+@media (max-width: 667px) {
+  .content_ima1 {
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+    /* background-color: palegreen; */
+  }
+  .content_facility {
+    height: 3100px;
+  }
+}
+
+.info_info {
+  height: 300px;
+  width: 100%;
+  float: left;
+  background-color: #90191b;
+}
+.info_info p {
+  font-size: 21px;
+  margin-top: 40px;
+  margin-left: 100px;
+  margin-right: 100px;
+  line-height: 35px;
+  text-align: center;
+  color: white;
+  font-style: italic;
+}
+.info_info h6 {
+  font-size: 15px;
+  margin-top: 30px;
+  margin-left: 90px;
+  font-weight: normal;
+  color: white;
+}
+.info_info button {
+  float: right;
+  margin-right: 60px;
+  height: 45px;
+  width: 150px;
+  font-size: 18px;
+  border: none;
+}
+
+@media (max-width: 667px) {
+  .info_info p {
+    margin: 0;
+    margin-top: 25px;
+    font-size: 15px;
+    line-height: 25px;
+    color: white;
+    font-style: italic;
+  }
+  .info_info h6 {
+    font-size: 13px;
+    margin-top: 50px;
+    margin-left: 30px;
+    font-weight: normal;
+    color: white;
+  }
+  .info_info button {
+    float: right;
+    margin-right: 30px;
+    margin-top: 20px;
+    height: 35px;
+    width: 120px;
+    font-size: 15px;
+    border: none;
+  }
+}
+
+.blog_info {
+  height: 150px;
+  width: 100%;
+  float: left;
+  /* background-color: yellow; */
+}
+.blog_info h1 {
+  height: 40px;
+  width: 70px;
+  font-size: 35px;
+  margin-left: 45%;
+  margin-top: 20px;
+  border-top: 4px solid #90191b;
+}
+.blog_info p {
+  margin-top: 10px;
+  margin-left: 25%;
+  font-size: 18px;
+  font-weight: bold;
+}
+@media (max-width: 667px) {
+  .blog_info p {
+    font-size: 14px;
+    margin-left: 20px;
+    font-weight: bold;
+  }
+}
+
+.blog_marathi {
+  height: auto;
+  width: 90%;
+  float: left;
+  /* background-color: aquamarine; */
+  margin-left: 5%;
+}
+.blog_marathi_b1 {
+  height: 95%;
+  width: 30%;
+  float: left;
+  margin-top: 2%;
+  border: 1px solid gray;
+  border-radius: 6px;
+  padding-bottom: 35px;
+  margin-left: 2.5%;
+}
+.blog_marathi_b1 img {
+  height: 60%;
+  width: 100%;
+  float: left;
+  padding-bottom: 15px;
+}
+.blog_marathi_b1 h1 {
+  font-size: 19px;
+  margin-left: 10px;
+}
+.blog_marathi_b1 p {
+  margin-top: 10px;
+  font-size: 17px;
+  margin-left: 10px;
+}
+.blog_marathi_b1 button {
+  height: 35px;
+  width: 110px;
+  font-size: 16px;
+  background-color: #90191b;
+  border: none;
+  color: white;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-left: 18px;
+}
+@media (max-width: 667px) {
+  .blog_marathi_b1 {
+    height: auto;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+.features {
+  height: auto;
+  width: 90%;
+  float: left;
+  /* background-color: yellow; */
+  margin-left: 5%;
+  margin-top: 50px;
+}
+.features_line1 {
+  height: auto;
+  width: 45%;
+  float: left;
+}
+.features h1 {
+  text-align: center;
+  font-size: 40px;
+}
+.features_line1 ul {
+  list-style-type: none;
+}
+.features_line1 ul li {
+  height: 30px;
+  width: 100%;
+  background-color: #90191b;
+  padding-top: 9px;
+  padding-left: 15px;
+  color: white;
+  font-size: 14px;
+  border-radius: 0px 40px 40px 0px;
+  margin-top: 20px;
+}
+.features_line2 {
+  height: auto;
+  width: 45%;
+  float: left;
+  margin-left: 9%;
+}
+.features_line2 ul {
+  list-style-type: none;
+}
+.features_line2 ul li {
+  height: 30px;
+  width: 100%;
+  background-color: #90191b;
+  padding-top: 9px;
+  padding-left: 15px;
+  color: white;
+  font-size: 14px;
+  border-radius: 40px 0px 0px 40px;
+  margin-top: 20px;
+}
+@media (max-width: 667px) {
+  .features_line1 {
+    width: 100%;
+  }
+  .features_line2 {
+    width: 100%;
+    float: right;
+  }
+}
+
+.mobile {
+  height: 500px;
+  width: 80%;
+  /* float: left; */
+  /* background-color: yellowgreen; */
+  margin-left: 10%;
+  margin-top: 90px;
+}
+.mobile_info {
+  height: 70%;
+  width: 40%;
+  float: left;
+  /* background-color: red; */
+  margin-top: 8%;
+}
+.mobile_info h1 {
+  margin-top: 40px;
+  margin-left: 20px;
+}
+.mobile_info h5 {
+  margin-top: 20px;
+  margin-left: 20px;
+  font-weight: normal;
+  font-size: 16px;
+}
+.mobile_info i {
+  color: green;
+  margin-right: 5px;
+}
+.mobile_info p {
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: 16px;
+}
+.mobile_info img {
+  height: 70%;
+}
+.mobile_info button {
+  border: none;
+  height: 60px;
+  width: 210px;
+  margin-top: 60px;
+  margin-left: 40px;
+  background-color: #90191b;
+}
+
+.mobile_phone {
+  height: 100%;
+  width: 60%;
+  float: left;
+  /* background-color: red; */
+}
+.mobile_phone img {
+  height: 100%;
+  width: 60%;
+  float: right;
+  margin-right: 10%;
+}
+@media (max-width: 667px) {
+  .mobile_info {
+    width: 100%;
+  }
+  .mobile_phone {
+    width: 100%;
+  }
+  .mobile_phone img {
+    width: 100%;
+  }
+}
+
+.connect_area {
+  height: 130px;
+  width: 70%;
+  float: left;
+  background-color: #741113;
+  margin-left: 30%;
+  border-top-left-radius: 50px;
+}
+.connect_area p {
+  margin-top: 20px;
+  margin-left: 25px;
+  font-size: 13px;
+  color: white;
+}
+.connect_area h2 {
+  margin-top: 20px;
+  margin-left: 15px;
+  font-size: 23px;
+  color: white;
+}
+.connect_area h6 {
+  margin-top: 10px;
+  margin-left: 15px;
+  font-size: 12px;
+  color: white;
+  font-weight: normal;
+}
+.connect_area button {
+  height: 40px;
+  width: 120px;
+  float: right;
+  margin-top: -60px;
+  margin-right: 100px;
+  border: none;
+  font-size: 16px;
+  color: #741113;
+}
+@media (max-width: 667px) {
+  .connect_area {
+    width: 100%;
+    height: auto;
+    margin-left: 0%;
+    border-radius: 0%;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  .connect_area button {
+    text-align: center;
+    float: left;
+    margin-top: 20px;
+    margin-left: 190px;
+  }
+}
+.address {
+  height: auto;
+  width: 100%;
+  float: left;
+  background-color: #90191b;
+  padding-bottom: 50px;
+}
+.footer_logo {
+  height: 150px;
+  width: 70%;
+  float: left;
+  /* background-color: yellow; */
+  margin-left: 15%;
+}
+.footer_logo img {
+  height: 70%;
+  width: 30%;
+  margin-top: 2.5%;
+}
+.footer_add_info {
+  height: auto;
+  width: 70%;
+  margin-left: 15%;
+  float: left;
+  /* background-color: yellow; */
+}
+.footer_add {
+  height: 100%;
+  width: 25%;
+  float: left;
+  border-right: 1px solid white;
+  box-sizing: border-box;
+}
+.footer_add ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+.footer_add ul li i {
+  font-size: 25px;
+  margin-left: 5px;
+}
+.footer_add p {
+  margin-top: 5px;
+  font-size: 14px;
+  line-height: 25px;
+  color: white;
+}
+
+.footer_link {
+  height: 90%;
+  width: 25%;
+  float: left;
+  border-right: 1px solid white;
+  box-sizing: border-box;
+}
+.footer_link p {
+  font-size: 17px;
+  margin-left: 35px;
+  color: white;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+.footer_link ul li {
+  list-style-type: none;
+  margin-top: 20px;
+  margin-left: 40px;
+  font-size: 14px;
+  color: white;
+}
+
+.footer_page {
+  height: 90%;
+  width: 25%;
+  float: left;
+  border-right: 1px solid white;
+  box-sizing: border-box;
+}
+.footer_page p {
+  font-size: 17px;
+  margin-left: 35px;
+  color: white;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+.footer_page ul li {
+  list-style-type: none;
+  margin-top: 20px;
+  margin-left: 40px;
+  font-size: 14px;
+  color: white;
+}
+.footer_form {
+  height: 90%;
+  width: 25%;
+  float: left;
+}
+.footer_form input {
+  height: 33px;
+  width: 80%;
+  border: none;
+  border-radius: 50px;
+  margin-bottom: 11px;
+  margin-left: 40px;
+  font-size: 11px;
+  padding-left: 10px;
+}
+.footer_form textarea {
+  height: 80px;
+  width: 80%;
+  border-radius: 20px;
+  margin-left: 40px;
+  font-size: 11px;
+  padding-left: 10px;
+  padding-top: 20px;
+}
+.footer_form button {
+  height: 30px;
+  width: 130px;
+  border-radius: 40px;
+  border: none;
+  color: #90191b;
+  font-weight: bold;
+  margin-left: 70px;
+  margin-top: 5px;
+}
+
+@media (max-width: 667px) {
+  .footer_logo img {
+    width: 80%;
+    height: 100%;
+    margin-left: 40px;
+    padding-bottom: 100px;
+  }
+  .footer_add {
+    width: 100%;
+    margin-top: 50px;
+    text-align: left;
+    border-right: none;
+  }
+  .footer_link {
+    width: 100%;
+    margin-top: 50px;
+    text-align: left;
+    border-right: none;
+  }
+  .footer_page {
+    width: 100%;
+    margin-top: 50px;
+    text-align: left;
+    border-right: none;
+  }
+  .footer_form {
+    width: 100%;
+    margin-top: 50px;
+    text-align: left;
+    border-right: none;
+  }
+  .footer_form button {
+    margin-left: 120px;
+  }
+}
+.last_footer_info {
+  height: 60px;
+  width: 100%;
+  float: left;
+  background-color: #524d4d;
+}
+.last_footer_info p {
+  font-size: 15px;
+  color: white;
+  margin-top: 20px;
+  margin-left: 200px;
+  float: left;
+}
+.last_footer_info h2 {
+  font-size: 15px;
+  color: white;
+  margin-top: 20px;
+  float: right;
+  margin-right: 170px;
+  word-spacing: 10px;
+  font-weight: normal;
+}
+@media (max-width: 667px) {
+  .last_footer_info {
+    height: auto;
+    padding-bottom: 20px;
+  }
+  .last_footer_info p {
+    width: 100%;
+    margin: 0%;
+    text-align: center;
+    margin-top: 10px;
+  }
+}
+
+/* Services Page css start */
+.s_heading {
+  height: 170px;
+  width: 100%;
+  float: left;
+  background-color: #90191b;
+}
+.s_heading_info {
+  height: 100%;
+  width: 60%;
+  float: left;
+  /* background-color: aquamarine; */
+  text-align: center;
+}
+.s_heading h1 {
+  font-size: 33px;
+  margin-top: 55px;
+  color: white;
+}
+.s_heading_img {
+  height: 100%;
+  width: 40%;
+  float: left;
+  background-color: aquamarine;
+}
+.s_heading_img img {
+  height: 100%;
+  width: 100%;
+}
+.s_info {
+  height: auto;
+  width: 100%;
+  float: left;
+  /* background-color: silver; */
+  text-align: center;
+}
+.s_info p {
+  font-size: 18px;
+  font-style: italic;
+  padding: 30px;
+  line-height: 30px;
+}
+.s_content {
+  height: auto;
+  width: 90%;
+  float: left;
+  margin-left: 5%;
+  /* background-color: aquamarine; */
+}
+.s_content1 {
+  height: 550px;
+  width: 30%;
+  float: left;
+  text-align: center;
+  /* background-color: yellow; */
+  margin-left: 2.5%;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  box-shadow: 0 7px 25px rgba(0, 0, 0, 0.15);
+}
+.s_content1 img {
+  height: 45px;
+  margin-top: 50px;
+  padding-bottom: 10px;
+}
+.s_content1 h2 {
+  color: #90191b;
+}
+.s_content1 p {
+  line-height: 30px;
+  padding: 20px;
+}
+
+@media (max-width: 667px) {
+  .s_content1 {
+    height: auto;
+    width: 95%;
+  }
+}
+
+.s_add {
+  height: 220px;
+  width: 100%;
+  float: left;
+  background-image: url("http://mahaganpatimultistate.com/assets/images/internalPageBanner/bottom-banner.png");
+  background-size: 100% 100%;
+  margin-bottom: 20px;
+}
+
+.s_add_info {
+  height: 100%;
+  width: 50%;
+  float: left;
+  /* background-color: aqua; */
+  text-align: justify;
+}
+.s_add_info h2 {
+  padding: 30px;
+  color: white;
+}
+.s_add_info button {
+  height: 45px;
+  width: 140px;
+  border: none;
+  color: #90191b;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-left: 30px;
+}
+@media (max-width: 667px) {
+  .s_add_info {
+    width: 78%;
+  }
+  .s_add_info h2 {
+    font-size: 19px;
+    text-align: left;
+    padding: 4;
+  }
+}
+
+ /* Branches css start */
+.branches_box{
+  height: auto;
+  width: 90%;
+  float: left;
+  margin-left: 5%;
+  margin-bottom: 3%;
+  /* background-color: aqua; */
+}
+.branches_box h1{
+  text-align: center;
+  font-size: 40px;
+  margin-top: 20px;
+}
+.b_box1{
+  height: 390px;
+  width: 30%;
+  float: left;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: center;
+  margin-left: 2.7%;
+  margin-top: 3%;
+}
+.b_box1 h2{
+  margin-top: 10px;
+}
+.b_box1 p{
+margin: 13px;
+line-height: 22px;
+color: gray;
+}
+.b_box1 button{
+  height: 40px;
+  width: 140px;
+  border: none;
+  color: white;
+  background-color: #741113;
+  font-size: 17px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+@media (max-width:667px){
+  .b_box1{
+    width: 100%;
+    margin-left: -1%;
+  }
+}
+
+
+/* Account Types css start */
+
+.ac_heading{
+  height: 170px;
+  width: 100%;
+  float: left;
+  background-image: url("http://mahaganpatimultistate.com/assets/images/internalPageBanner/AccountType.webp");
+  background-size: 100% 100%;
+}
+.ac_heading h1{
+  margin-top: 45px;
+  margin-left: 330px;
+  font-size: 40px;
+  color: white;
+}
+@media (max-width:667px){
+  .ac_heading h1{
+    font-size: 32px;
+   margin-left:60px;
+   margin-top: 60px;
+  }
+}
+.ac_2img{
+  height: auto;
+  width: 90%;
+  float: left;
+  margin-left: 5%;
+  margin-bottom: 50px;
+  /* background-color: peru; */
+
+}
+.ac_2img_first{
+  height: auto;
+  width: 48%;
+  float: left;
+  margin-top: 20px;
+  margin-right: 1.5%;
+  /* background-color: pink; */
+}
+.ac_2img_first img{
+  float: left;
+  height: 140px;
+  margin: 30px;
+}
+.ac_2img_first h2 {
+  margin-top: 80px;
+}
+@media (max-width:667px){
+  .ac_2img_first {
+    height: 300px;
+    width: 90%;
+    float: left;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .ac_2img_first img{
+    float: left;
+    width: 90%;
+    height: 260px;
+  }
+  .ac_2img_first h2 {
+
+    font-size: 20px;
+  }
+}
+
+/* deposit scheme css start */
+.ds_heading{
+  height: 170px;
+  width: 100%;
+  float: left;
+  background-image: url("http://mahaganpatimultistate.com/assets/images/internalPageBanner/DepositSchemes.png");
+  background-size: 100% 100%;
+}
+.ds_heading h1{
+  margin-top: 55px;
+  margin-left: 330px;
+  font-size: 40px;
+  color: white;
+}
+@media (max-width:667px){
+  .ds_heading h1{
+    font-size: 32px;
+   margin-left:60px;
+   margin-top: 60px;
+  }
+}
+.ds_scheme{
+  height: auto;
+  width: 90%;
+  float: left;
+  margin-left: 5%;
+  /* background-color: aquamarine; */
+  margin-bottom: 50px;
+}
+
+ /* Loan scheme css start */
+
+
+.lc_heading{
+  height: 170px;
+  width: 100%;
+  float: left;
+  background-image: url("http://mahaganpatimultistate.com/assets/images/internalPageBanner/LoanSchemes.png");
+  background-size: 100% 100%;
+}
+.lc_heading h1{
+  margin-top: 55px;
+  margin-left: 330px;
+  font-size: 40px;
+  color: white;
+}
+@media (max-width:667px){
+  .lc_heading h1{
+    font-size: 32px;
+   margin-left:60px;
+   margin-top: 60px;
+  }
+}
